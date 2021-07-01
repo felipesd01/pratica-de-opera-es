@@ -1,0 +1,13 @@
+void main() {
+  
+  double salario = 1500;
+  double tempoDeEmpresa = 2;
+  double acrescimo = 1000 * 0.04;
+  if(tempoDeEmpresa >= 1){
+    double novoSalario = salario + acrescimo;
+    print("Novo salário: " + novoSalario.toString());
+  }else{
+    print("Funcionário com menos de 1 ano de empresa!");
+  }
+  
+}

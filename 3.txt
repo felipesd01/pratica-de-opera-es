@@ -1,0 +1,13 @@
+void main() {
+  
+  double a = 3;
+  double b = 5;
+  double c = 6;
+  
+  double calculo1 = a + b * c;
+  double calculo2 = b / a * c;
+  
+  print("a) calculo1 = " + calculo1.toString());
+  print("b) calculo2 = " + calculo2.toString());
+  
+}
